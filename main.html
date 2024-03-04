@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <link rel="stylesheet" href="/ressources/index.css">
+    <link rel="stylesheet" href="ressources/index.css">
 </head>
 <body>
-    <header>
+    <nav>
         <h1 id="my_name">Lancelot Watelle</h1>
 
-        <nav>
-            <ol>
-                <li class="navigate"><a href="#about">About Me</a></li>
-                <li class="navigate"><a href="">My projects</a></li>
-                <li class="navigate"><a href="">My Skills</a></li>
-                <li class="navigate"><a href="">Contact</a></li>
-            </ol>
-        </nav>
-    </header>
+        <ol>
+            <li class="navigate"><a href="#about">About Me</a></li>
+            <li class="navigate"><a href="#projects">My projects</a></li>
+            <li class="navigate"><a href="#Skills">My Skills</a></li>
+            <li class="navigate"><a href="#contact">Contact</a></li>
+        </ol>
+    </nav>
     <main>
         <section id ="about">
             <h2 class = "title">About</h2>
             <p>A long paragraph of my life</p>
         </section>
 
+        <br>
         <section id ="projects">
             <h2 class ="title">My projects</h2>
             <div class ="container">
+
                 <div class ="everyProject">
-                    <!-- Image-->
-                    <h4 class = "explainProject"></h4>
-                    <a href="">Link for the site</a>
+                    <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
+                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
+                </div>
+
+                <div class ="everyProject">
+                    <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
+                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
+                </div>
+
+                <div class ="everyProject">
+                    <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
+                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
                 </div>
             </div>
         </section>
 
+        <br>
         <section id ="Skills">
             <h2 class = "title">Skills</h2>
             <div class = "allskills">
@@ -46,7 +59,7 @@
        
     </main>
 
-    <footer>
+    <footer id="contact">
         <!--Image-->
         <h6>My linkeding</h6>
         <!--Image-->
