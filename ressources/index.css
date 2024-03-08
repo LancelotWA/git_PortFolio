@@ -1,4 +1,4 @@
-html {
+    html {
     color: black;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
@@ -82,4 +82,12 @@ p {
 
 footer {
     margin-left: 1rem;
+}
+.myskills {
+    width: 8rem;
+    height: 7rem;
+}
+
+.contactMe{
+    width: 5rem;
 }
