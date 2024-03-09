@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="ressources/index.css">
+    <script type="text/javascript" src="divers.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <nav>
@@ -19,13 +21,27 @@
         </ol>
     </nav>
     <main>
-        <section id ="about">
+        <section id ="quote">
+            <h3>Do you want a question ?</h3>
+            <h4 id="theQuote"></h4>
+            <ul>
+                <li id = "IWant">Yes</li>
+                <li id = "noThanks">No</li>
+            </ul>
+        </section>
+
+        <section>
             <h2 class = "title">About</h2>
-            <p>
-                Créer une description captivante pour un portfolio peut être crucial pour se démarquer. Voici un exemple basé sur le peu d'informations fournies. N'hésitez pas à ajuster ou à me donner plus de détails pour une personnalisation encore plus précise :      
-                Bonjour et bienvenue sur mon portfolio en ligne, je suis Baki, un passionné de [votre domaine d'expertise ou d'intérêt, par exemple : design graphique, développement web, photographie, etc.]. Ma vocation est de transformer les idées en réalités visuellement captivantes, en utilisant à la fois mon intuition créative et ma rigueur technique     
-                Originaire de [votre ville ou pays], j'ai plongé dans le monde de [votre domaine] il y a [nombre d'années] ans, et depuis, je n'ai cessé d'explorer, d'apprendre et de me perfectionner. Ma philosophie repose sur trois piliers : créativité, fonctionnalité et innovation. Je crois fermement que le bon design n'est pas seulement esthétique mais qu'il doit aussi résoudre des problèmes, communiquer des idées et susciter des émotions.
-                Mon portfolio est une vitrine de mes projets préférés, ceux qui m'ont défié, ceux qui m'ont fait grandir, et surtout, ceux qui ont fait la différence pour mes clients. Chaque projet est une histoire de collaboration, d'exploration et de passion. Vous y trouverez une diversité de travaux, reflétant ma capacité à m'adapter et à innover dans un environnement en constante évolution.</p>
+            <div id = "about">
+                <img src="ressources/img/photoOfMe.jpg" alt="picture of myself">
+                <p>
+                    Créer une description captivante pour un portfolio peut être crucial pour se démarquer. Voici un exemple basé sur le peu d'informations fournies. N'hésitez pas à ajuster ou à me donner plus de détails pour une personnalisation encore plus précise :      
+                    Bonjour et bienvenue sur mon portfolio en ligne, je suis Baki, un passionné de [votre domaine d'expertise ou d'intérêt, par exemple : design graphique, développement web, photographie, etc.]. Ma vocation est de transformer les idées en réalités visuellement captivantes, en utilisant à la fois mon intuition créative et ma rigueur technique     
+                    Originaire de [votre ville ou pays], j'ai plongé dans le monde de [votre domaine] il y a [nombre d'années] ans, et depuis, je n'ai cessé d'explorer, d'apprendre et de me perfectionner. Ma philosophie repose sur trois piliers : créativité, fonctionnalité et innovation. Je crois fermement que le bon design n'est pas seulement esthétique mais qu'il doit aussi résoudre des problèmes, communiquer des idées et susciter des émotions.
+                    Mon portfolio est une vitrine de mes projets préférés, ceux qui m'ont défié, ceux qui m'ont fait grandir, et surtout, ceux qui ont fait la différence pour mes clients. Chaque projet est une histoire de collaboration, d'exploration et de passion. Vous y trouverez une diversité de travaux, reflétant ma capacité à m'adapter et à innover dans un environnement en constante évolution.
+                </p>
+            </div>
+
         </section>
 
         <br>
@@ -35,19 +51,31 @@
 
                 <div class ="everyProject">
                     <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
-                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <h6 class = "explainProject">Want to know more ?</h6>
+                    <p class="Theexplaination">
+                        Un site portfolio est une plateforme numérique personnelle ou professionnelle qui permet à un individu de présenter son travail, 
+                        ses compétences et ses réalisations de manière visuelle et accessible. Voici trois lignes expliquant un site portfolio :
+                    </p>
                     <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
                 </div>
 
                 <div class ="everyProject">
                     <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
-                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <h6 class = "explainProject">Want to know more ?</h6>
+                    <p class="Theexplaination">
+                        Un site portfolio est une plateforme numérique personnelle ou professionnelle qui permet à un individu de présenter son travail, 
+                        ses compétences et ses réalisations de manière visuelle et accessible. Voici trois lignes expliquant un site portfolio :
+                    </p>
                     <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
                 </div>
 
                 <div class ="everyProject">
                     <img class="webPicture" src="ressources/img/image_site_defaut.jpg" alt="image of the site">
-                    <p class = "explainProject">This website is very incredible beacause ....</p>
+                    <h6 class = "explainProject">Want to know more ?</h6>
+                    <p class="Theexplaination">
+                        Un site portfolio est une plateforme numérique personnelle ou professionnelle qui permet à un individu de présenter son travail, 
+                        ses compétences et ses réalisations de manière visuelle et accessible. Voici trois lignes expliquant un site portfolio :
+                    </p>
                     <a href="https://dictionnaire.reverso.net/francais-definition/site+quelconque" target="_blank">Link for the site</a>
                 </div>
             </div>
@@ -56,11 +84,24 @@
         <br>
         <section id ="Skills">
             <h2 class = "title">Skills</h2>
-            <div class = "allskills">
+            <div id = "hardSkills">
+                <h3>Hard Skills :</h4>
+                <h4 class = "def">Definition : <span id ="whatIsHardSkills">Hard skills are specific abilities, capabilities and skill sets that an individual can possess and demonstrate in a measured way.</span></h6>
                 <img class = "myskills" src = "ressources/img/Tous mes skills/css.png" alt="css logo"> 
                 <img class = "myskills" src = "ressources/img/Tous mes skills/html.png" alt="html logo"> 
                 <img class = "myskills" src = "ressources/img/Tous mes skills/math.jpeg" alt="math logo"> 
                 <img class = "myskills" src = "ressources/img/Tous mes skills/python.jpeg" alt="python logo"> 
+            </div>
+            <div id = "softSkills">
+                <h3>Soft Skills :</h4>
+                <h4 class="def">Definition :
+                    <span id ="whatIsSoftSkills">Personal attributes that enable someone to interact effectively and harmoniously with other people.</span>
+                </h6>
+                    <ul>
+                        <li>lidership</li>
+                        <li>Organisation</li>
+                        <li>How to Know me</li>
+                    </ul>
             </div>
         </section>
        
@@ -68,11 +109,13 @@
 
     <footer id="contact">
         <h2 class = "title">Contact Me</h2>
-        <a href="https://www.linkedin.com/in/lancelot-watelle-203476261/"><img class = "contactMe" src="ressources/img/linkedin.jpg" alt="logo linkedin"></a>
+        <h6 id = "mymail">lancelotwatelle@gmail.com</h6>
+        <br>
+        <a href="www.linkedin.com/in/lancelot-watelle-203476261" target="_blank"><img class = "contactMe" src="ressources/img/linkedin.jpg" alt="logo linkedin"></a>
         <!--Image-->
-        <a href="https://www.instagram.com/"><img class = "contactMe" src="ressources/img/photo_insta.webp" alt="logo insta"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class = "contactMe" src="ressources/img/photo_insta.webp" alt="logo insta"></a>
         <!--Image-->
-        <h6>lancelotwatelle@gmail.com</h6>
+        <img class="contactMe" src="ressources/img/mail.png" alt = "my email">
     </footer>
 
 

@@ -54,25 +54,65 @@ p {
     margin-left: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+#quote{
+    text-align: center;
+}
+#quote ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 
+
+}
+#quote ul li {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+
+
+#about {
+    display: flex;
+
+}
+
+#about img {
+    width: 60%;
+    height: auto;
+}
 
 .container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .everyProject {
     border: 0.2rem solid;
-    height: 30rem;
-    width: 20rem;
+    height: fit-content;
+    width: 25%;
+    min-height: 20rem;
     text-align: center;
+}
+.everyProject a {
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
 .explainProject {
     font-style: italic;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    color: blue;
 }
+
+.Theexplaination {
+    display: none;
+}
+
 .webPicture {
     width: 90%;
     height: 60%;
@@ -80,14 +120,110 @@ p {
 
 
 
-footer {
-    margin-left: 1rem;
-}
+/* Skills*/
 .myskills {
     width: 8rem;
     height: 7rem;
 }
 
-.contactMe{
-    width: 5rem;
+#Skills {
+    width: 90%;
+    margin: auto;
 }
+
+#hardSkills {
+    margin-bottom: 3rem;
+}
+
+#hardSkills img {
+    margin: 1rem;
+}
+
+#softSkills li {
+    line-height: 2rem;
+}
+
+.def {
+    color: blue;
+}
+#whatIsSoftSkills {
+    display: none;
+    color: black;
+
+}
+
+#whatIsHardSkills {
+    display: none;
+    color: black;
+}
+
+/*foot*/
+
+
+footer {
+    margin-left: 1rem;
+}
+
+
+.contactMe{
+    width: 3rem;
+}
+
+#mymail {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+  
+}
+
+
+@media only screen and (max-width: 1300px) {
+    html {
+        font-size: 12px;
+    }
+
+    main {
+        width: 100%;
+    }
+  
+}
+
+@media screen  and (max-width: 800px){
+    #about {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+    }
+    #Skills {
+        width: 100%;
+    }
+    #about img {
+        width: 80%;
+    }
+}
+@media screen  and (max-width: 400){
+    nav {
+        margin: none;
+    }
+
+    .myskills {
+        width: 6.5rem;
+        height: 5.5rem;
+        margin: none;
+    }
+
+    .title {
+        margin: none;
+    }
+}
+
